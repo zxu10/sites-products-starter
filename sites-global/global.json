@@ -1,0 +1,53 @@
+{
+	"name": "Yext's Fashion Warehouse",
+    "photoGallery": [
+		{
+			"image": {
+			  "url": "/images/bowman.png",
+			  "name": "Bowman"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/breed.jpg",
+			  "name": "Bryan"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/duval.jpg",
+			  "name": "Duval"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/pranjal.jpg",
+			  "name": "Pranjal"
+			}
+		},
+		{
+		  "image": {
+			"url": "/images/luc.png",
+			"name": "Luc"
+		  }
+		},
+		{
+		  "image": {
+			"url": "/images/gideon.jpg",
+			"name": "Gideon"
+		  }
+		},
+		{
+			"image": {
+			  "url": "/images/travis.jpg",
+			  "name": "Travis"
+			}
+		},
+		{
+			"image": {
+			  "url": "/images/max.png",
+			  "name": "Max"	
+			}
+		}
+	  ]
+}
