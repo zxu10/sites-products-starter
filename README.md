@@ -1,3 +1,1 @@
-# m4test
-
-Welcome to Yext Sites!
+# Welcome to Yext Sites!
