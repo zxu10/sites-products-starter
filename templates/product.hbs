@@ -4,6 +4,11 @@
         "$id": "products",
         "source": "knowledgeGraph",
         "destination": "pages",
+      "filter": {
+        "entityTypes": [
+          "product"
+        ]
+      },
       "fields": [
         "id",
         "uid",
@@ -18,11 +23,6 @@
       ],
       "localization": {
           "locales": ["en"]
-      },
-      "filter": {
-        "entityTypes": [
-          "product"
-        ]
       }
     },
     "urlFormat": "{{slug}}"
