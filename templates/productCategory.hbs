@@ -4,6 +4,11 @@
         "$id": "product-categories",
         "source": "knowledgeGraph",
         "destination": "pages",
+      "filter": {
+        "entityTypes": [
+          "ce_productCategory"
+        ]
+      },
       "fields": [
         "id",
         "uid",
@@ -21,11 +26,6 @@
       ],
       "localization": {
           "locales": ["en"]
-      },
-      "filter": {
-        "entityTypes": [
-          "ce_productCategory"
-        ]
       }
     },
     "urlFormat": "{{slug}}"
