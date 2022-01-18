@@ -3,6 +3,9 @@
         "assets": [
             {
                 "root": "assets"
+            },
+            {
+                "root": "static"
             }
         ],
         "hbsTemplates": [
@@ -13,11 +16,7 @@
             { 
                 "root": "partials",
                 "pattern": "*.hbs"
-            },
-            { 
-                "root": "pages",
-                "pattern": "*.hbs"
-            } 
+            }
         ]
     },
     "base_image_tag": "node-12.18",
