@@ -1,0 +1,18 @@
+{{!-- schema --}}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@id": "{{id}}",
+        "@type": [
+            "LocalBusiness"
+        ],
+        "color": "{{color}}",
+        "description": "{{richTextDescription}}",
+        "image": "{{photoGallery.0.image.url}}",
+        "offers": {
+            "@type": "Offer",
+            "price": "{{price.value}}",
+            "priceCurrency": "{{price.currencyCode}}"
+        }
+    }
+</script>
